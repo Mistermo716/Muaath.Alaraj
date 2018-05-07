@@ -1,0 +1,260 @@
+/*
+COLORS:
+
+rosered: #B40912
+offwhite: #E0E3DA
+lightBlue: #70B1B5
+darkBlue: #0E2132
+shadeOfBlack: #04050A
+
+*/
+
+/*getting rid of default padding and borders*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    padding: 30px;
+}
+
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgb(45, 179, 236), rgba(44, 53, 57, .2)), url(img.jpg);
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+}
+
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.heading-primary {
+    color: white;
+    backface-visibility: hidden;
+    margin-bottom: 60px;
+}
+
+.heading-primary-main {
+    display: block;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 15px;
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+}
+
+.heading-primary-sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    animation-name: moveInRight;
+    animation-duration: 2s;
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    80% {
+        transform: translateX(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    80% {
+        transform: translateX(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.btn:link,
+.btn:visited {
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+}
+
+.btn-white {
+    background-color: white;
+    color: #777;
+}
+
+.maincontainer {
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 470px;
+    margin: 20px;
+}
+
+.thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s;
+}
+
+.thecard:hover {
+    transform: rotateY(180deg);
+}
+
+.thefront1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: #333;
+    background-image: url(Spanglish.png);
+    background-size: cover;
+    background-position: top;
+}
+
+.thefront3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: #333;
+    background-image: url(product.png);
+    background-size: cover;
+    background-position: top left;
+}
+
+.thefront2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, white, rgba(218, 218, 209, 0.301));
+    backface-visibility: hidden;
+    color: #333;
+    background-position: top-left;
+}
+
+.theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right bottom, rgb(45, 179, 236), rgba(44, 53, 57, .8)), url(Spanglish.png);
+    background-size: cover;
+    background-position: top;
+    backface-visibility: hidden;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.theback2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right bottom, rgb(45, 179, 236), rgba(44, 53, 57));
+    background-size: cover;
+    background-position: top;
+    backface-visibility: hidden;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.theback3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right bottom, rgb(45, 179, 236), rgba(44, 53, 57, .8)), url(product.png);
+    background-size: cover;
+    background-position: top;
+    backface-visibility: hidden;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.infocontain {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.stack-title {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+.stack1 {
+    position: relative;
+    display: inline-block;
+    margin: 30px;
+}
+
+.stack2 {
+    position: relative;
+    display: inline-block;
+    margin: 30px;
+}
+
+.desc {
+    margin: 10px;
+}
+
+.btn-project {
+    position: relative;
+    left: 30%;
+}
+
+img {
+    width: 100%;
+}
+
+.aboutme h1 {
+    margin: 15px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.aboutme {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.card {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+}
