@@ -122,7 +122,7 @@ body {
 	position: relative;
 	float: left;
 	width: 300px;
-	height: 470px;
+	height: 500px;
 	margin: 20px;
 }
 
@@ -146,6 +146,17 @@ body {
 	backface-visibility: hidden;
 	color: #333;
 	background-image: url(Spanglish.png);
+	background-size: cover;
+	background-position: top;
+}
+
+.thefront4 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	color: #333;
+	background-image: url(safer.png);
 	background-size: cover;
 	background-position: top;
 }
@@ -206,6 +217,17 @@ body {
 	color: white;
 	transform: rotateY(180deg);
 }
+.theback4 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to right bottom, rgb(45, 179, 236), rgba(44, 53, 57, .8)), url(safer.png);
+	background-size: cover;
+	background-position: top;
+	backface-visibility: hidden;
+	color: white;
+	transform: rotateY(180deg);
+}
 
 .infocontain {
 	position: absolute;
@@ -231,6 +253,14 @@ li {
 	position: relative;
 	display: inline-block;
 	margin: 30px;
+}
+.stack4 {
+	position: relative;
+	display: inline-block;
+	margin: 30px;
+}
+.stack4.back {
+	bottom: 70px;
 }
 
 .desc {
