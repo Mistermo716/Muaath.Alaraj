@@ -160,16 +160,17 @@ body {
 .aboutme {
 	color: rgba(0, 0, 0, 0.74);
 	font-family: lato;
-	text-align: center;
 }
 li {
 	list-style: none;
 }
 .h1desc {
-	text-align: center;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.137);
 	color: #2689ae;
 }
 .qual {
 	color: #34a9dc;
+}
+.section {
+	margin-bottom: 10px;
 }
