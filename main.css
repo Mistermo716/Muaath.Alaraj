@@ -25,7 +25,6 @@ body {
 	color: #777;
 	padding: 30px;
 }
-
 .header {
 	height: 95vh;
 	background-image: linear-gradient(to right bottom, rgb(45, 179, 236), rgba(44, 53, 57, .2)), url(img.jpg);
@@ -137,6 +136,10 @@ body {
 	}
 }
 @media only screen and (max-width: 768px) {
+	header {
+		width: 100%;
+		margin: 2px;
+	}
 }
 
 .aboutme {
