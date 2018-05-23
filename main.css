@@ -46,7 +46,6 @@ body {
 .heading-primary {
 	color: white;
 	backface-visibility: hidden;
-	margin-bottom: 60px;
 }
 
 .heading-primary-main {
@@ -137,11 +136,6 @@ body {
 	}
 }
 @media only screen and (max-width: 768px) {
-	header {
-		width: 96%;
-		margin: 30px auto 100px auto;
-		text-align: left;
-	}
 }
 
 .maincontainer {
