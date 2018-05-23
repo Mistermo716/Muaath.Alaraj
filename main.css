@@ -35,13 +35,13 @@ body {
 }
 .header {
 	color: white;
-	height: 85vh;
+	height: 80vh;
 	width: 100%;
 	background-image: linear-gradient(to right bottom, rgb(45, 179, 236), rgba(44, 53, 57, .2)), url(img.jpg);
 	background-size: cover;
 	background-position: bottom center;
 	position: relative;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .text-box {
@@ -160,11 +160,14 @@ body {
 .aboutme {
 	color: rgba(0, 0, 0, 0.74);
 	font-family: lato;
+	text-align: center;
 }
 li {
 	list-style: none;
 }
 .h1desc {
+	text-align: center;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.137);
 	color: #2689ae;
 }
 .qual {
