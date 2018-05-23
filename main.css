@@ -34,7 +34,7 @@ body {
 	padding: 30px;
 }
 .header {
-	color: white;
+	color: rgb(245, 245, 245);
 	height: 80vh;
 	width: 100%;
 	background-image: linear-gradient(to right bottom, rgb(45, 179, 236), rgba(44, 53, 57, .2)), url(img.jpg);
@@ -53,7 +53,7 @@ body {
 }
 
 .heading-primary {
-	color: white;
+	color: rgb(245, 245, 245);
 	backface-visibility: hidden;
 }
 
@@ -122,7 +122,7 @@ body {
 }
 
 .btn-white {
-	background-color: white;
+	background-color: rgb(245, 245, 245);
 	color: #777;
 }
 
