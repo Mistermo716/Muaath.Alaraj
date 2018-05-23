@@ -25,7 +25,7 @@ again
 
 body {
 	margin: 0;
-	background: rgb(245, 245, 245);
+	background-color: rgb(245, 245, 245);
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
