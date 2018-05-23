@@ -18,10 +18,11 @@ shadeOfBlack: #04050A
 }
 
 .btn {
-	margin: 15px;
+	margin: 20px;
 }
 
 body {
+	margin: 0;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
@@ -31,6 +32,7 @@ body {
 }
 .header {
 	height: 95vh;
+	width: 100%;
 	background-image: linear-gradient(to right bottom, rgb(45, 179, 236), rgba(44, 53, 57, .2)), url(img.jpg);
 	background-size: cover;
 	background-position: bottom;
