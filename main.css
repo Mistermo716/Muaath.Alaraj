@@ -22,6 +22,10 @@ again
 .btn {
 	margin: 20px;
 }
+.icon {
+	height: 50px;
+	width: auto;
+}
 
 body {
 	margin: 0;
@@ -182,5 +186,8 @@ li {
 	color: #34a9dc;
 }
 .section {
+	margin-bottom: 10px;
+}
+.h1marg {
 	margin-bottom: 10px;
 }
